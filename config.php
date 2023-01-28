@@ -19,7 +19,7 @@ date_default_timezone_set("Asia/Jakarta");
 error_reporting(0);
 
 	// sesuaikan dengan server anda
-	$host 	= 'alkaifsqlserver'; // host server
+	$host 	= 'alkaifsqlserver.mysql.database.azure.com'; // host server
 	$user 	= 'alkaif';  // username server
 	$pass 	= 'p@ssw0rd'; // password server, kalau pakai xampp kosongin saja
 	$dbname = 'rawalkaif'; // nama database anda
