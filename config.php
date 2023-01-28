@@ -19,10 +19,10 @@ date_default_timezone_set("Asia/Jakarta");
 error_reporting(0);
 
 	// sesuaikan dengan server anda
-	$host 	= 'localhost'; // host server
-	$user 	= 'root';  // username server
-	$pass 	= ''; // password server, kalau pakai xampp kosongin saja
-	$dbname = 'db_toko'; // nama database anda
+	$host 	= 'alkaif-php-webapp-server'; // host server
+	$user 	= 'ockwknsmhu';  // username server
+	$pass 	= 'V46ZQ3Y65J10NB2S$'; // password server, kalau pakai xampp kosongin saja
+	$dbname = 'alkaif-php-webapp-database'; // nama database anda
 	
 	try{
 		$config = new PDO("mysql:host=$host;dbname=$dbname;", $user,$pass);
